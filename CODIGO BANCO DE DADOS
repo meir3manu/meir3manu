@@ -1,0 +1,38 @@
+create database resiliaa;
+use resiliaa;
+create table empresas
+(id int primary key auto_increment,
+nome varchar(40),
+descricao varchar(40)
+);
+create table tecnologia
+(id int primary key auto_increment,
+nome varchar(40),
+area varchar(40)
+);
+
+create table colaboradores 
+(id int primary key auto_increment,
+nome varchar(40),
+cargo varchar(40),
+empresa_id int, tecnologia_id int
+);
+ALTER TABLE colaboradores ADD CONSTRAINT FK_Empresa2  FOREIGN KEY (empresa_id) REFERENCES empresa, 
+ADD CONSTRAINT FK_Tecnologia
+FOREIGN KEY (tecnologia_id) REFERENCES tecnologias(id);
+
+INSERT INTO Empresas (nome, descricao) VALUES
+('Resilia ', 'curso de capacitação bootcamp'),
+('senac', 'curso voltado para a educaçao profissional');
+
+INSERT INTO Tecnologias (nome, area) VALUES
+('rede de computadores ', 'Webdev'),
+('progamaçao', 'Dados');
+
+INSERT INTO Empresas_Tecnologias (id_empresa, id_tecnologia, versao) VALUES
+(1, 1, '1.0'),
+(2, 2, '2.5');
+
+INSERT INTO Colaboradores (nome, cargo, id_empresa) VALUES
+('João', 'Desenvolvedor', 1),
+('Maria', 'Analista de Dados', 2);
