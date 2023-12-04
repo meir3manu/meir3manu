@@ -2,6 +2,50 @@
 
 Este repositório contém o script SQL para criar e popular um banco de dados simples para gerenciar informações sobre empresas, tecnologias e colaboradores. O banco de dados é nomeado "resiliaa".
 
+# RESPOSTAS
+**Respostas:**
+
+1. **Entidades Necessárias:**
+   - Empresas
+   - Tecnologias
+   - Colaboradores
+
+2. **Principais Campos e Tipos:**
+   - **Empresas:**
+     - `id` (int, primary key, auto_increment)
+     - `nome` (varchar(40))
+     - `descricao` (varchar(40))
+
+   - **Tecnologias:**
+     - `id` (int, primary key, auto_increment)
+     - `nome` (varchar(40))
+     - `area` (varchar(40))
+
+   - **Colaboradores:**
+     - `id` (int, primary key, auto_increment)
+     - `nome` (varchar(40))
+     - `cargo` (varchar(40))
+     - `empresa_id` (int, foreign key referenciando `empresas`)
+     - `tecnologia_id` (int, foreign key referenciando `tecnologia`)
+
+3. **Relacionamentos:**
+   - A tabela `colaboradores` possui duas chaves estrangeiras (`empresa_id` e `tecnologia_id`) que se relacionam com as tabelas `empresas` e `tecnologia`, respectivamente.
+   - Isso indica que um colaborador está associado a uma empresa específica e utiliza uma tecnologia específica em seu trabalho.
+
+4. **Simulação de 2 Registros para Cada Entidade:**
+   - **Empresas:**
+     1. Nome: Resilia, Descrição: Curso de capacitação bootcamp
+     2. Nome: Senac, Descrição: Curso voltado para a educação profissional
+
+   - **Tecnologias:**
+     1. Nome: Rede de computadores, Área: Webdev
+     2. Nome: Programação, Área: Dados
+
+   - **Colaboradores:**
+     1. Nome: João, Cargo: Desenvolvedor, Empresa: Resilia, Tecnologia: Rede de computadores
+     2. Nome: Maria, Cargo: Analista de Dados, Empresa: Senac, Tecnologia: Programação
+
+
 ## Estrutura do Banco de Dados
 
 ### Tabelas
