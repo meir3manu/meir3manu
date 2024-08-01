@@ -1,6 +1,6 @@
 #  Projeto individual Database - modulo 3
 
-Este repositório contém o script SQL para criar e popular um banco de dados simples para gerenciar informações sobre empresas, tecnologias e colaboradores. O banco de dados é nomeado "resiliaa".
+Este repositório contém o script SQL para criar e popular um banco de dados simples para gerenciar informações sobre empresas, tecnologias e colaboradores. O banco de dados é nomeado "resilia".
 
 # RESPOSTAS
 **Respostas:**
