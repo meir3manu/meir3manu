@@ -36,7 +36,7 @@ Sou apaixonada por **tecnologia, inovação e impacto social**. Acredito forteme
 
 ## 📫 Onde me encontrar  
 🔹 **GitHub:** [github.com/meir3manu](https://github.com/meir3manu)  
-🔹 **LinkedIn:** [linkedin.com/in/meireemanuela](#) *(https://www.linkedin.com/in/meire-emanu-18bb27a2/)*  
+🔹 **LinkedIn:** *(https://www.linkedin.com/in/meire-emanu-18bb27a2/)*  
 🔹 **E-mail:** *[meire.emanu@vozesnatech.com]*  
 
 ---
