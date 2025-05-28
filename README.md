@@ -1,6 +1,5 @@
 # 👋 Olá, eu sou Meire Emanuela!  
 
-💡 **Analista de Dados** | 🎓 Estudante de **Análise e Desenvolvimento de Sistemas** | 🚀 **Fundadora da Vozes na Tech** **Co-fundadora da Ruptura Racial** 
 
 Sou apaixonada por **tecnologia, inovação e impacto social**. Acredito fortemente que **não há inovação sem diversidade** – diversidade de ideias, pontos de vista e, principalmente, de pessoas.  
 
@@ -8,7 +7,7 @@ Sou apaixonada por **tecnologia, inovação e impacto social**. Acredito forteme
 
 ## 🚀 Sobre mim  
 - 📍 **Rio de Janeiro, Brasil**  
-- 🎓 **Estudante de Análise e Desenvolvimento de Sistemas** na Universidade Veiga de Almeida  
+- 🎓 **Estudante de Análise e Desenvolvimento de Sistemas** na Universidade UNIGRANRIO  
 - 👩🏾‍💻 **Fundadora da Vozes na Tech** – startup que capacita e conecta mulheres de comunidades e periferias a oportunidades no setor de tecnologia  
 - 📊 **Experiência em Análise de Dados, Ciência de Dados e Desenvolvimento Web**  
 
