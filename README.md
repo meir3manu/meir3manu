@@ -1,4 +1,4 @@
-# 👋 Olá, eu sou Meire Emanuela!  
+#  Olá, eu sou Meire Emanuela!  
 
 
 Sou apaixonada por **tecnologia, inovação e impacto social**. Acredito fortemente que **não há inovação sem diversidade** – diversidade de ideias, pontos de vista e, principalmente, de pessoas.  
